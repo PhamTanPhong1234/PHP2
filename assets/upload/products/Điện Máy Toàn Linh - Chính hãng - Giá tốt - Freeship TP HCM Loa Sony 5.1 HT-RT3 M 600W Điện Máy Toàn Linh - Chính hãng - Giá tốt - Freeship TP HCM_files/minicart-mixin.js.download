@@ -1,0 +1,1 @@
+define(['jquery'],function($){'use strict';return function(Component){return Component.extend({closeSidebar:function(){var minicart=$('[data-block="minicartpro"]');minicart.on('click','[data-action="close"]',function(event){event.stopPropagation();minicart.find('[data-role="dropdownDialog"]').dropdownDialog('close');});return true;}});}});
