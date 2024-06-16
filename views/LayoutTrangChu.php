@@ -171,7 +171,7 @@ s0.parentNode.insertBefore(s1,s0);
   <div class="bottom-footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-5"></div>
+      <div class="col-xs-12 col-sm-5"> © Bản quyền của Sony </div>
         <div class="col-xs-12 col-sm-7">
           <ul class="list-unstyled">
             <li><a href="#">Trang chủ</a></li>

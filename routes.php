@@ -4,11 +4,11 @@ class routes
     private $controllers = [
         'account'=>['register','registerPost','login','loginPost','logout'],
         'cart'=>['create','index','delete','destroy','update','checkout'],
-        'checkout'=>['create','index','delete','destroy','update','checkout'],        'contact'=>[],
+        'checkout'=>['create','index','delete','destroy','update','checkout'],
         'header'=>['index'],
         'contact' => ['index'],
         'home'=>['index'],
-        'news'=>['index','detail', ],
+        'news'=>['index','detail'],
         'products'=>['index','categories','detail'],
         'wishlist'=>['index','create','delete'],
         'search'=>['index']

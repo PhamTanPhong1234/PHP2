@@ -24,13 +24,13 @@ $this->layoutPath = "LayoutTrangChu.php";
           $dateDiff = strtotime($now) - strtotime($createdAt);
           $textYeuThich = 'Yêu thích';
           if ($dateDiff < 259200) {
-            $textYeuThich = 'Sản phẩm mới';
+            $textYeuThich = ' Mới';
           }
           ?>
           <!-- box product -->
           <div class="col-xs-6 col-md-2 col-sm-6 " style="position: relative;">
             <div style="position: absolute; width: 30px; line-height: 30px; border-radius: 30px; background: black; color:white; text-align: center;"><?php echo $rows->discount; ?>%</div>
-            <div style="position: absolute; width: 70px; line-height: 25px; border-radius: 20px; background: red; color:white; text-align: center; right: 10px;top:60px;"><a href="index.php?controller=wishlist&action=create&id=<?php echo $rows->id; ?>" style="color:white;"><?php echo $textYeuThich; ?></a></div>
+            <div style="position: absolute; width: 70px; line-height: 25px; border-radius: 20px; background: red; color:white; text-align: center; right: 10px;top:60px;transform: translateY(-40px)"><a href="index.php?controller=wishlist&action=create&id=<?php echo $rows->id; ?>" style="color:white;"><?php echo $textYeuThich; ?></a></div>
             <div class="product-grid" id="product-1168979" style="height: 350px; overflow: hidden;">
               <div class="image"> <a href="index.php?controller=products&action=detail&id=<?php echo $rows->id; ?>"><img src="assets/upload/products/<?php echo $rows->photo; ?>" title="<?php echo $rows->name; ?>" alt="<?php echo $rows->name; ?>" class="img-responsive"></a> </div>
               <div class="info">
@@ -82,13 +82,13 @@ $categories = $this->modelGetCategories();
           $dateDiff = strtotime($now) - strtotime($createdAt);
           $textYeuThich = 'Yêu thích';
           if ($dateDiff < 259200) {
-            $textYeuThich = 'Sản phẩm mới';
+            $textYeuThich = ' Mới';
           }
           ?>
           <!-- box product -->
           <div class="col-xs-6 col-md-2 col-sm-6 " style="position: relative;">
             <div style="position: absolute; width: 30px; line-height: 30px; border-radius: 30px; background: black; color:white; text-align: center;"><?php echo $rows->discount; ?>%</div>
-            <div style="position: absolute; width: 70px; line-height: 25px; border-radius: 20px; background: red; color:white; text-align: center; right: 10px;top:60px;"><a href="index.php?controller=wishlist&action=create&id=<?php echo $rows->id; ?>" style="color:white;"><?php echo $textYeuThich; ?></a></div>
+            <div style="position: absolute; width: 70px; line-height: 25px; border-radius: 20px; background: red; color:white; text-align: center; right: 10px;top:60px;transform: translateY(-40px)"><a href="index.php?controller=wishlist&action=create&id=<?php echo $rows->id; ?>" style="color:white;"><?php echo $textYeuThich; ?></a></div>
             <div class="product-grid" id="product-1168979" style="height: 350px; overflow: hidden;">
               <div class="image"> <a href="index.php?controller=products&action=detail&id=<?php echo $rows->id; ?>"><img src="assets/upload/products/<?php echo $rows->photo; ?>" title="<?php echo $rows->name; ?>" alt="<?php echo $rows->name; ?>" class="img-responsive"></a> </div>
               <div class="info">
