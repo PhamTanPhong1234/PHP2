@@ -127,8 +127,8 @@
     <div class="bottom-header">
       <div class="container">
         <div class="clearfix">
-          <ul class="main-nav hidden-xs hidden-sm list-unstyled">
-            <li class="active"><a href="index.php">Trang chủ</a></li>
+          <ul class="main-nav hidden-xs hidden-sm list-unstyled" style="font-weight: bold;">
+            <li class="active" ><a style="color: black;background-color: #f4f4f4;" href="index.php">Trang chủ</a></li>
             <li class="has-submenu"> <a href="index.php?controller=products"> <span>Sản phẩm</span><i class="fa fa-caret-down" style="margin-left: 5px;"></i> </a>
               <ul class="list-unstyled level1">
                 <?php

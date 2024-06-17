@@ -25,4 +25,4 @@
 			header("location:index.php");
 		}
 	}	
- ?>
+?>

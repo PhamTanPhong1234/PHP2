@@ -13,7 +13,7 @@ include "../application/Connection.php";
 			$action = 'index';
 		}
 	} else {
-		$controller = 'admins';
+		$controller = 'products';
 		$action = 'index';
 	}
 	require_once('routes.php');

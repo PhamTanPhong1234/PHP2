@@ -37,4 +37,4 @@
 				header("location:index.php?controller=account&action=login");
 		}
 	}
- ?>
+?>

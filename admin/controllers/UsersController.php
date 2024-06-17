@@ -4,7 +4,7 @@ require_once('Controller.php');
 //load file model
 include "models/UsersModel.php";
 class UsersController extends Controller
-{
+{		
 	//ke thua class UsersModel
 	use UsersModel;
 	//liet ke so ban ghi

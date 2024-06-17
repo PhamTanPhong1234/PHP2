@@ -38,6 +38,7 @@
 		}
 		//xoa toan bo gio hang
 		public function destroy(){
+			$id= null;
 			//goi ham cartDestroy de xoa gio hang
 			$this->cartDestroy($id);
 			//quay tro lai trang gio hang
